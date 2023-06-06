@@ -1,0 +1,11 @@
+boto3
+fastapi
+numpy
+opencv_python==4.7.0.72
+PassportEye
+Pillow
+pytesseract
+redis_lock==0.2.0
+tesseract
+ftfy
+pdf2image
