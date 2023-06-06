@@ -378,8 +378,8 @@ def extraction_pan(trail_id,source_img_path):
 def s3_dowloader_fn(trail_id,Path_to_dowload_file,id_type):
     # Ask the user for an S3 URL to download
     # Split the S3 URL into bucket and key
-    ACCESS_KEY = 'AKIA4OK42ESO2JEQKCD4'
-    SECRET_KEY = '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'
+    ACCESS_KEY = 'AKIA4OK4D4'
+    SECRET_KEY = 'XeXkhJnvw+WZR'
     s3 = boto3.client('s3',aws_access_key_id=ACCESS_KEY,aws_secret_access_key=SECRET_KEY)
     parts = Path_to_dowload_file.split('/')
     print(parts)
